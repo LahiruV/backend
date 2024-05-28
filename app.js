@@ -31,30 +31,6 @@ app.use("/admin", admin);
 const user = require("./routes/user.js");
 app.use("/user", user);
 
-const jobs = require("./routes/jobs.js");
-app.use("/jobs", jobs);
-
-const apply = require("./routes/apply.js");
-app.use("/apply", apply);
-
-const friend = require("./routes/friend.js");
-app.use("/friend", friend);
-
-const conversation = require("./routes/conversation.js");
-app.use("/conversation", conversation);
-
-const service = require("./routes/service.js");
-app.use("/service", service);
-
-const course = require("./routes/course.js");
-app.use("/course", course);
-
-const enroll = require("./routes/enroll.js");
-app.use("/enroll", enroll);
-
-const dashboard = require("./routes/dashboard.js");
-app.use("/dashBoard", dashboard);
-
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
