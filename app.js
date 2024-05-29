@@ -31,6 +31,10 @@ app.use("/admin", admin);
 const user = require("./routes/user.js");
 app.use("/user", user);
 
+const questions = require("./routes/questions.js");
+app.use("/questions", questions);
+
+
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
