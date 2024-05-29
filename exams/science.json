@@ -1,0 +1,159 @@
+{
+    "Beginner": [
+      {
+        "question": "What is the main gas found in the air we breathe?",
+        "options": ["A) Oxygen", "B) Nitrogen", "C) Carbon dioxide", "D) Hydrogen"],
+        "answer": "B) Nitrogen"
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "options": ["A) 90°C", "B) 100°C", "C) 110°C", "D) 120°C"],
+        "answer": "B) 100°C"
+      },
+      {
+        "question": "What planet is known as the Blue Planet?",
+        "options": ["A) Mars", "B) Venus", "C) Earth", "D) Jupiter"],
+        "answer": "C) Earth"
+      },
+      {
+        "question": "What do plants use to make food?",
+        "options": ["A) Soil", "B) Water", "C) Sunlight", "D) Air"],
+        "answer": "C) Sunlight"
+      },
+      {
+        "question": "Which part of the plant conducts photosynthesis?",
+        "options": ["A) Root", "B) Stem", "C) Leaf", "D) Flower"],
+        "answer": "C) Leaf"
+      },
+      {
+        "question": "Which organ pumps blood throughout the human body?",
+        "options": ["A) Brain", "B) Lungs", "C) Heart", "D) Liver"],
+        "answer": "C) Heart"
+      },
+      {
+        "question": "What is the chemical symbol for water?",
+        "options": ["A) O2", "B) CO2", "C) H2O", "D) HO2"],
+        "answer": "C) H2O"
+      },
+      {
+        "question": "What force pulls objects towards the Earth?",
+        "options": ["A) Magnetism", "B) Gravity", "C) Friction", "D) Tension"],
+        "answer": "B) Gravity"
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["A) Earth", "B) Mars", "C) Jupiter", "D) Saturn"],
+        "answer": "C) Jupiter"
+      },
+      {
+        "question": "What do bees collect from flowers to make honey?",
+        "options": ["A) Nectar", "B) Pollen", "C) Water", "D) Sap"],
+        "answer": "A) Nectar"
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is the main component of the sun?",
+        "options": ["A) Oxygen", "B) Nitrogen", "C) Hydrogen", "D) Helium"],
+        "answer": "C) Hydrogen"
+      },
+      {
+        "question": "What is the process by which plants make their food?",
+        "options": ["A) Respiration", "B) Photosynthesis", "C) Digestion", "D) Transpiration"],
+        "answer": "B) Photosynthesis"
+      },
+      {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["A) Gold", "B) Iron", "C) Diamond", "D) Silver"],
+        "answer": "C) Diamond"
+      },
+      {
+        "question": "What type of animal is a frog?",
+        "options": ["A) Mammal", "B) Reptile", "C) Bird", "D) Amphibian"],
+        "answer": "D) Amphibian"
+      },
+      {
+        "question": "What is the chemical symbol for sodium?",
+        "options": ["A) S", "B) Na", "C) Sn", "D) Sd"],
+        "answer": "B) Na"
+      },
+      {
+        "question": "What part of the cell contains genetic material?",
+        "options": ["A) Cytoplasm", "B) Cell membrane", "C) Nucleus", "D) Ribosome"],
+        "answer": "C) Nucleus"
+      },
+      {
+        "question": "What is the speed of light?",
+        "options": ["A) 300,000 km/s", "B) 150,000 km/s", "C) 200,000 km/s", "D) 250,000 km/s"],
+        "answer": "A) 300,000 km/s"
+      },
+      {
+        "question": "What is the common name for sodium chloride?",
+        "options": ["A) Sugar", "B) Baking soda", "C) Table salt", "D) Vinegar"],
+        "answer": "C) Table salt"
+      },
+      {
+        "question": "Which planet is known for its rings?",
+        "options": ["A) Earth", "B) Mars", "C) Jupiter", "D) Saturn"],
+        "answer": "D) Saturn"
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "options": ["A) Nucleus", "B) Mitochondria", "C) Ribosome", "D) Chloroplast"],
+        "answer": "B) Mitochondria"
+      }
+    ],
+    "Pro": [
+      {
+        "question": "What is the chemical formula for methane?",
+        "options": ["A) CH4", "B) CO2", "C) H2O", "D) NH3"],
+        "answer": "A) CH4"
+      },
+      {
+        "question": "What is the process by which a liquid turns into a gas?",
+        "options": ["A) Condensation", "B) Evaporation", "C) Sublimation", "D) Freezing"],
+        "answer": "B) Evaporation"
+      },
+      {
+        "question": "Which gas is most abundant in the Earth's atmosphere?",
+        "options": ["A) Oxygen", "B) Carbon dioxide", "C) Nitrogen", "D) Argon"],
+        "answer": "C) Nitrogen"
+      },
+      {
+        "question": "What organ in the human body is responsible for filtering blood?",
+        "options": ["A) Heart", "B) Liver", "C) Kidney", "D) Lungs"],
+        "answer": "C) Kidney"
+      },
+      {
+        "question": "What is the universal solvent?",
+        "options": ["A) Oil", "B) Alcohol", "C) Water", "D) Acetone"],
+        "answer": "C) Water"
+      },
+      {
+        "question": "What is Newton's third law of motion?",
+        "options": ["A) An object at rest stays at rest.", "B) Force equals mass times acceleration.", "C) For every action, there is an equal and opposite reaction.", "D) Energy cannot be created or destroyed."],
+        "answer": "C) For every action, there is an equal and opposite reaction."
+      },
+      {
+        "question": "What is the smallest unit of life?",
+        "options": ["A) Atom", "B) Molecule", "C) Cell", "D) Organ"],
+        "answer": "C) Cell"
+      },
+      {
+        "question": "What is the main function of red blood cells?",
+        "options": ["A) Fight infection", "B) Carry oxygen", "C) Clot blood", "D) Produce hormones"],
+        "answer": "B) Carry oxygen"
+      },
+      {
+        "question": "What is the primary source of energy for the Earth's ecosystem?",
+        "options": ["A) Wind", "B) Water", "C) Sunlight", "D) Geothermal"],
+        "answer": "C) Sunlight"
+      },
+      {
+        "question": "What is the atomic number of carbon?",
+        "options": ["A) 4", "B) 6", "C) 8", "D) 10"],
+        "answer": "B) 6"
+      }
+    ]
+  }
+  

@@ -1,0 +1,159 @@
+{
+    "Beginner": [
+      {
+        "question": "What is 10 + 5?",
+        "options": ["A) 13", "B) 14", "C) 15", "D) 16"],
+        "answer": "C) 15"
+      },
+      {
+        "question": "What is the value of 3 × 4?",
+        "options": ["A) 7", "B) 12", "C) 10", "D) 15"],
+        "answer": "B) 12"
+      },
+      {
+        "question": "What is 20 divided by 4?",
+        "options": ["A) 4", "B) 5", "C) 6", "D) 7"],
+        "answer": "B) 5"
+      },
+      {
+        "question": "What is the next number in the sequence: 2, 4, 6, ___?",
+        "options": ["A) 7", "B) 8", "C) 9", "D) 10"],
+        "answer": "B) 8"
+      },
+      {
+        "question": "How many sides does a pentagon have?",
+        "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+        "answer": "C) 5"
+      },
+      {
+        "question": "What is 50% of 20?",
+        "options": ["A) 5", "B) 10", "C) 15", "D) 20"],
+        "answer": "B) 10"
+      },
+      {
+        "question": "What is the value of 9 - 3?",
+        "options": ["A) 5", "B) 6", "C) 7", "D) 8"],
+        "answer": "B) 6"
+      },
+      {
+        "question": "Which number is an even number?",
+        "options": ["A) 5", "B) 7", "C) 8", "D) 9"],
+        "answer": "C) 8"
+      },
+      {
+        "question": "What is the smallest prime number?",
+        "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+        "answer": "B) 2"
+      },
+      {
+        "question": "What is the value of 6 + 7?",
+        "options": ["A) 11", "B) 12", "C) 13", "D) 14"],
+        "answer": "C) 13"
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is the value of 12 × 3?",
+        "options": ["A) 30", "B) 32", "C) 34", "D) 36"],
+        "answer": "D) 36"
+      },
+      {
+        "question": "Solve for x: 2x = 14",
+        "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+        "answer": "B) 7"
+      },
+      {
+        "question": "What is the perimeter of a square with side length 5 cm?",
+        "options": ["A) 15 cm", "B) 20 cm", "C) 25 cm", "D) 30 cm"],
+        "answer": "B) 20 cm"
+      },
+      {
+        "question": "What is the area of a triangle with base 8 cm and height 5 cm?",
+        "options": ["A) 20 cm²", "B) 30 cm²", "C) 40 cm²", "D) 50 cm²"],
+        "answer": "A) 20 cm²"
+      },
+      {
+        "question": "What is the value of 100 ÷ 4?",
+        "options": ["A) 20", "B) 25", "C) 30", "D) 35"],
+        "answer": "B) 25"
+      },
+      {
+        "question": "What is the LCM of 4 and 6?",
+        "options": ["A) 10", "B) 12", "C) 14", "D) 16"],
+        "answer": "B) 12"
+      },
+      {
+        "question": "Simplify: 3/4 + 1/4",
+        "options": ["A) 1/2", "B) 1", "C) 3/2", "D) 2"],
+        "answer": "B) 1"
+      },
+      {
+        "question": "If a car travels 60 km in 1 hour, how far will it travel in 3 hours?",
+        "options": ["A) 120 km", "B) 150 km", "C) 180 km", "D) 200 km"],
+        "answer": "C) 180 km"
+      },
+      {
+        "question": "What is the value of the expression 5²?",
+        "options": ["A) 15", "B) 20", "C) 25", "D) 30"],
+        "answer": "C) 25"
+      },
+      {
+        "question": "What is the greatest common divisor (GCD) of 24 and 36?",
+        "options": ["A) 4", "B) 6", "C) 8", "D) 12"],
+        "answer": "D) 12"
+      }
+    ],
+    "Pro": [
+      {
+        "question": "Solve for x: 3x + 4 = 19",
+        "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+        "answer": "C) 5"
+      },
+      {
+        "question": "What is the value of 7 × 8 - 4?",
+        "options": ["A) 50", "B) 52", "C) 54", "D) 56"],
+        "answer": "B) 52"
+      },
+      {
+        "question": "What is the area of a circle with radius 7 cm? (Use π = 22/7)",
+        "options": ["A) 144 cm²", "B) 154 cm²", "C) 164 cm²", "D) 174 cm²"],
+        "answer": "B) 154 cm²"
+      },
+      {
+        "question": "What is the value of 4! (4 factorial)?",
+        "options": ["A) 12", "B) 20", "C) 24", "D) 30"],
+        "answer": "C) 24"
+      },
+      {
+        "question": "If the length of a rectangle is doubled and the width is halved, what happens to the area?",
+        "options": ["A) Doubled", "B) Halved", "C) Remains the same", "D) Quadrupled"],
+        "answer": "C) Remains the same"
+      },
+      {
+        "question": "Solve for y: 2y - 3 = 7",
+        "options": ["A) 3", "B) 4", "C) 5", "D) 6"],
+        "answer": "C) 5"
+      },
+      {
+        "question": "Simplify: √64",
+        "options": ["A) 6", "B) 7", "C) 8", "D) 9"],
+        "answer": "C) 8"
+      },
+      {
+        "question": "What is the value of the expression 3² + 4²?",
+        "options": ["A) 21", "B) 25", "C) 29", "D) 32"],
+        "answer": "B) 25"
+      },
+      {
+        "question": "What is the slope of the line passing through the points (2, 3) and (4, 7)?",
+        "options": ["A) 1", "B) 2", "C) 3", "D) 4"],
+        "answer": "B) 2"
+      },
+      {
+        "question": "What is the sum of the interior angles of a hexagon?",
+        "options": ["A) 540°", "B) 600°", "C) 720°", "D) 900°"],
+        "answer": "C) 720°"
+      }
+    ]
+  }
+  
