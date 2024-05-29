@@ -28,10 +28,14 @@ const user = new Schema(
       type: String,
       default: "",
     },
-    exam: {
+    mathsexam: {
       type: Array,
       default: [],
-    },    
+    },
+    scienceexam: {
+      type: Array,
+      default: [],
+    },       
   },
   {
     timestamps: true,

@@ -1,0 +1,430 @@
+Mathematics MCQ for Ordinary Level Students
+Beginner Level
+Question: What is 10 + 5?
+
+A) 13
+B) 14
+C) 15
+D) 16
+Answer: C) 15
+Question: What is the value of 3 × 4?
+
+A) 7
+B) 12
+C) 10
+D) 15
+Answer: B) 12
+Question: What is 20 divided by 4?
+
+A) 4
+B) 5
+C) 6
+D) 7
+Answer: B) 5
+Question: What is the next number in the sequence: 2, 4, 6, ___?
+
+A) 7
+B) 8
+C) 9
+D) 10
+Answer: B) 8
+Question: How many sides does a pentagon have?
+
+A) 3
+B) 4
+C) 5
+D) 6
+Answer: C) 5
+Question: What is 50% of 20?
+
+A) 5
+B) 10
+C) 15
+D) 20
+Answer: B) 10
+Question: What is the value of 9 - 3?
+
+A) 5
+B) 6
+C) 7
+D) 8
+Answer: B) 6
+Question: Which number is an even number?
+
+A) 5
+B) 7
+C) 8
+D) 9
+Answer: C) 8
+Question: What is the smallest prime number?
+
+A) 1
+B) 2
+C) 3
+D) 4
+Answer: B) 2
+Question: What is the value of 6 + 7?
+
+A) 11
+B) 12
+C) 13
+D) 14
+Answer: C) 13
+Medium Level
+Question: What is the value of 12 × 3?
+
+A) 30
+B) 32
+C) 34
+D) 36
+Answer: D) 36
+Question: Solve for x: 2x = 14
+
+A) 6
+B) 7
+C) 8
+D) 9
+Answer: B) 7
+Question: What is the perimeter of a square with side length 5 cm?
+
+A) 15 cm
+B) 20 cm
+C) 25 cm
+D) 30 cm
+Answer: B) 20 cm
+Question: What is the area of a triangle with base 8 cm and height 5 cm?
+
+A) 20 cm²
+B) 30 cm²
+C) 40 cm²
+D) 50 cm²
+Answer: C) 20 cm²
+Question: What is the value of 100 ÷ 4?
+
+A) 20
+B) 25
+C) 30
+D) 35
+Answer: B) 25
+Question: What is the LCM of 4 and 6?
+
+A) 10
+B) 12
+C) 14
+D) 16
+Answer: B) 12
+Question: Simplify: 3/4 + 1/4
+
+A) 1/2
+B) 1
+C) 3/2
+D) 2
+Answer: B) 1
+Question: If a car travels 60 km in 1 hour, how far will it travel in 3 hours?
+
+A) 120 km
+B) 150 km
+C) 180 km
+D) 200 km
+Answer: C) 180 km
+Question: What is the value of the expression 5²?
+
+A) 15
+B) 20
+C) 25
+D) 30
+Answer: C) 25
+Question: What is the greatest common divisor (GCD) of 24 and 36?
+
+A) 4
+B) 6
+C) 8
+D) 12
+Answer: D) 12
+Pro Level
+Question: Solve for x: 3x + 4 = 19
+
+A) 3
+B) 4
+C) 5
+D) 6
+Answer: C) 5
+Question: What is the value of 7 × 8 - 4?
+
+A) 50
+B) 52
+C) 54
+D) 56
+Answer: B) 52
+Question: What is the area of a circle with radius 7 cm? (Use π = 22/7)
+
+A) 144 cm²
+B) 154 cm²
+C) 164 cm²
+D) 174 cm²
+Answer: B) 154 cm²
+Question: What is the value of 4! (4 factorial)?
+
+A) 12
+B) 20
+C) 24
+D) 30
+Answer: C) 24
+Question: If the length of a rectangle is doubled and the width is halved, what happens to the area?
+
+A) Doubled
+B) Halved
+C) Remains the same
+D) Quadrupled
+Answer: C) Remains the same
+Question: Solve for y: 2y - 3 = 7
+
+A) 3
+B) 4
+C) 5
+D) 6
+Answer: C) 5
+Question: Simplify: √64
+
+A) 6
+B) 7
+C) 8
+D) 9
+Answer: C) 8
+Question: What is the value of the expression 3² + 4²?
+
+A) 21
+B) 25
+C) 29
+D) 32
+Answer: B) 25
+Question: What is the slope of the line passing through the points (2, 3) and (4, 7)?
+
+A) 1
+B) 2
+C) 3
+D) 4
+Answer: B) 2
+Question: What is the sum of the interior angles of a hexagon?
+
+A) 540°
+B) 600°
+C) 720°
+D) 900°
+Answer: C) 720°
+
+
+Science MCQ for Ordinary Level Students
+Beginner Level
+Question: What is the main gas found in the air we breathe?
+
+A) Oxygen
+B) Nitrogen
+C) Carbon dioxide
+D) Hydrogen
+Answer: B) Nitrogen
+Question: What is the boiling point of water?
+
+A) 90°C
+B) 100°C
+C) 110°C
+D) 120°C
+Answer: B) 100°C
+Question: What planet is known as the Blue Planet?
+
+A) Mars
+B) Venus
+C) Earth
+D) Jupiter
+Answer: C) Earth
+Question: What do plants use to make food?
+
+A) Soil
+B) Water
+C) Sunlight
+D) Air
+Answer: C) Sunlight
+Question: Which part of the plant conducts photosynthesis?
+
+A) Root
+B) Stem
+C) Leaf
+D) Flower
+Answer: C) Leaf
+Question: Which organ pumps blood throughout the human body?
+
+A) Brain
+B) Lungs
+C) Heart
+D) Liver
+Answer: C) Heart
+Question: What is the chemical symbol for water?
+
+A) O2
+B) CO2
+C) H2O
+D) HO2
+Answer: C) H2O
+Question: What force pulls objects towards the Earth?
+
+A) Magnetism
+B) Gravity
+C) Friction
+D) Tension
+Answer: B) Gravity
+Question: What is the largest planet in our solar system?
+
+A) Earth
+B) Mars
+C) Jupiter
+D) Saturn
+Answer: C) Jupiter
+Question: What do bees collect from flowers to make honey?
+
+A) Nectar
+B) Pollen
+C) Water
+D) Sap
+Answer: A) Nectar
+Medium Level
+Question: What is the main component of the sun?
+
+A) Oxygen
+B) Nitrogen
+C) Hydrogen
+D) Helium
+Answer: C) Hydrogen
+Question: What is the process by which plants make their food?
+
+A) Respiration
+B) Photosynthesis
+C) Digestion
+D) Transpiration
+Answer: B) Photosynthesis
+Question: What is the hardest natural substance on Earth?
+
+A) Gold
+B) Iron
+C) Diamond
+D) Silver
+Answer: C) Diamond
+Question: What type of animal is a frog?
+
+A) Mammal
+B) Reptile
+C) Bird
+D) Amphibian
+Answer: D) Amphibian
+Question: What is the chemical symbol for sodium?
+
+A) S
+B) Na
+C) Sn
+D) Sd
+Answer: B) Na
+Question: What part of the cell contains genetic material?
+
+A) Cytoplasm
+B) Cell membrane
+C) Nucleus
+D) Ribosome
+Answer: C) Nucleus
+Question: What is the speed of light?
+
+A) 300,000 km/s
+B) 150,000 km/s
+C) 200,000 km/s
+D) 250,000 km/s
+Answer: A) 300,000 km/s
+Question: What is the common name for sodium chloride?
+
+A) Sugar
+B) Baking soda
+C) Table salt
+D) Vinegar
+Answer: C) Table salt
+Question: Which planet is known for its rings?
+
+A) Earth
+B) Mars
+C) Jupiter
+D) Saturn
+Answer: D) Saturn
+Question: What is the powerhouse of the cell?
+
+A) Nucleus
+B) Mitochondria
+C) Ribosome
+D) Chloroplast
+Answer: B) Mitochondria
+Pro Level
+Question: What is the chemical formula for methane?
+
+A) CH4
+B) CO2
+C) H2O
+D) NH3
+Answer: A) CH4
+Question: What is the process by which a liquid turns into a gas?
+
+A) Condensation
+B) Evaporation
+C) Sublimation
+D) Freezing
+Answer: B) Evaporation
+Question: Which gas is most abundant in the Earth's atmosphere?
+
+A) Oxygen
+B) Carbon dioxide
+C) Nitrogen
+D) Argon
+Answer: C) Nitrogen
+Question: What organ in the human body is responsible for filtering blood?
+
+A) Heart
+B) Liver
+C) Kidney
+D) Lungs
+Answer: C) Kidney
+Question: What is the universal solvent?
+
+A) Oil
+B) Alcohol
+C) Water
+D) Acetone
+Answer: C) Water
+Question: What is Newton's third law of motion?
+
+A) An object at rest stays at rest.
+B) Force equals mass times acceleration.
+C) For every action, there is an equal and opposite reaction.
+D) Energy cannot be created or destroyed.
+Answer: C) For every action, there is an equal and opposite reaction.
+Question: What is the smallest unit of life?
+
+A) Atom
+B) Molecule
+C) Cell
+D) Organ
+Answer: C) Cell
+Question: What is the main function of red blood cells?
+
+A) Fight infection
+B) Carry oxygen
+C) Clot blood
+D) Produce hormones
+Answer: B) Carry oxygen
+Question: What is the primary source of energy for the Earth's ecosystem?
+
+A) Wind
+B) Water
+C) Sunlight
+D) Geothermal
+Answer: C) Sunlight
+Question: What is the atomic number of carbon?
+
+A) 4
+B) 6
+C) 8
+D) 10
+Answer: B) 6

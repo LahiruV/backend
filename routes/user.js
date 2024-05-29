@@ -14,7 +14,8 @@ router.post("/register", async (req, res) => {
       phone,
       age,
       image,
-      exam
+      mathsexam,
+      scienceexam
     } = req.body;
 
     // Check if the email is already in use
@@ -34,7 +35,8 @@ router.post("/register", async (req, res) => {
       phone,
       age,
       image,
-      exam
+      mathsexam,
+      scienceexam
     });
 
     // Save the new user to the database
@@ -135,7 +137,7 @@ router.delete("/delete/:id", async (req, res) => {
     return res.status(500).json({ error: "Internal server error" });
   }
 });
-
+//Get 
 router.get("/get/:id", async (req, res) => {
   const userId = req.params.id;
   try {
@@ -151,8 +153,9 @@ router.get("/get/:id", async (req, res) => {
   }
 });
 
-router.put("/addCourse/:id", async (req, res) => {
+router.put("/addExam/:id", async (req, res) => {
   const userId = req.params.id;
+  const optionType = req.body.type;
   const body = req.body.data;
 
   try {
@@ -163,17 +166,24 @@ router.put("/addCourse/:id", async (req, res) => {
 
     let message = "";
     let uniqueId = generateId();
+    if (optionType === "maths") {
+      user.mathsexam.push({ ...body, id: uniqueId });
+      message = "Maths Exam Submit Successfully";
+    } else if (optionType === "science") {
+      user.scienceexam.push({ ...body, id: uniqueId });
+      message = "Science Exam Submit Successfully";
+    }else {
+      return res.status(400).json({ message: "Invalid option type" });
+    }
 
-    user.exam.push({ ...body, id: uniqueId });
-    message = "Exam Completed successfully";
     await user.save();
     return res.status(200).json({ message: message });
-
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 function generateId() {
   return (
