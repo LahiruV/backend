@@ -111,12 +111,25 @@ router.put("/update/:id", async (req, res) => {
 router.get("/getAll", async (req, res) => {
   try {
     const users = await userSchema.find();
-    return res.status(200).json(users);
+
+    // Customize each user object
+    const customizedUsers = users.map(user => {
+      const mathsLevel = user.mathsexam.length ? user.mathsexam[user.mathsexam.length - 1] : null;
+      const scienceLevel = user.scienceexam.length ? user.scienceexam[user.scienceexam.length - 1] : null;
+      return {
+        ...user._doc,
+        mathsLevel,
+        scienceLevel,
+      };
+    });
+
+    return res.status(200).json(customizedUsers);
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 router.delete("/delete/:id", async (req, res) => {
   const userId = req.params.id;
@@ -146,12 +159,24 @@ router.get("/get/:id", async (req, res) => {
       return res.status(404).json({ message: "User not found" });
     }
 
-    return res.status(200).json(user);
+    // Get the last values of mathsexam and scienceexam arrays
+    const mathsLevel = user.mathsexam.length ? user.mathsexam[user.mathsexam.length - 1] : null;
+    const scienceLevel = user.scienceexam.length ? user.scienceexam[user.scienceexam.length - 1] : null;
+
+    // Customize the response object
+    const customizedUser = {
+      ...user._doc,
+      mathsLevel,
+      scienceLevel,
+    };
+
+    return res.status(200).json(customizedUser);
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 router.put("/addExam/:id", async (req, res) => {
   const userId = req.params.id;
