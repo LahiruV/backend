@@ -151,11 +151,11 @@ router.get("/getModuleDetail/:module/:userId", async (req, res) => {
 
       if (mathsLevel && mathsLevel.score >= 70) {
         if (nextLevel <= 2) {
-          response["nextLevel"] = Object.keys(levels)[nextLevel];
+          response["level"] = Object.keys(levels)[nextLevel];
           response["questions"] = MathsJson[Object.keys(levels)[nextLevel]];
           response["score"] = 0;
         } else {
-          response["nextLevel"] = Object.keys(levels)[currentLevel];
+          response["level"] = Object.keys(levels)[currentLevel];
         }
       }
     } else if (module === "science") {
@@ -181,11 +181,11 @@ router.get("/getModuleDetail/:module/:userId", async (req, res) => {
 
       if (scienceLevel && scienceLevel.score >= 70) {
         if (nextLevel <= 2) {
-          response["nextLevel"] = Object.keys(levels)[nextLevel];
+          response["level"] = Object.keys(levels)[nextLevel];
           response["questions"] = ScienceJson[Object.keys(levels)[nextLevel]];
           response["score"] = 0;
         } else {
-          response["nextLevel"] = Object.keys(levels)[currentLevel];
+          response["level"] = Object.keys(levels)[currentLevel];
         }
       }
     }
