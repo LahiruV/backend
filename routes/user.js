@@ -3,12 +3,21 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const router = express.Router();
 const userSchema = require("../models/user");
+const adminSchema = require("../models/admin");
 
 // Register a new user
 router.post("/register", async (req, res) => {
   try {
-    const { name, email, password, phone, age, image, mathsexam, scienceexam } =
-      req.body;
+    const {
+      name,
+      email,
+      password,
+      phone,
+      age,
+      image,
+      mathsexam,
+      scienceexam
+    } = req.body;
 
     // Check if the email is already in use
     const existingUser = await userSchema.findOne({ email });
@@ -28,7 +37,7 @@ router.post("/register", async (req, res) => {
       age,
       image,
       mathsexam,
-      scienceexam,
+      scienceexam
     });
 
     // Save the new user to the database
@@ -105,13 +114,9 @@ router.get("/getAll", async (req, res) => {
     const users = await userSchema.find();
 
     // Customize each user object
-    const customizedUsers = users.map((user) => {
-      const mathsLevel = user.mathsexam.length
-        ? user.mathsexam[user.mathsexam.length - 1]
-        : null;
-      const scienceLevel = user.scienceexam.length
-        ? user.scienceexam[user.scienceexam.length - 1]
-        : null;
+    const customizedUsers = users.map(user => {
+      const mathsLevel = user.mathsexam.length ? user.mathsexam[user.mathsexam.length - 1] : null;
+      const scienceLevel = user.scienceexam.length ? user.scienceexam[user.scienceexam.length - 1] : null;
       return {
         ...user._doc,
         mathsLevel,
@@ -125,6 +130,7 @@ router.get("/getAll", async (req, res) => {
     return res.status(500).json({ error: "Internal server error" });
   }
 });
+
 
 router.delete("/delete/:id", async (req, res) => {
   const userId = req.params.id;
@@ -145,7 +151,7 @@ router.delete("/delete/:id", async (req, res) => {
     return res.status(500).json({ error: "Internal server error" });
   }
 });
-//Get
+//Get 
 router.get("/get/:id", async (req, res) => {
   const userId = req.params.id;
   try {
@@ -155,33 +161,14 @@ router.get("/get/:id", async (req, res) => {
     }
 
     // Get the last values of mathsexam and scienceexam arrays
-    const mathsLevel = user.mathsexam.length
-      ? user.mathsexam[user.mathsexam.length - 1]
-      : null;
-    const scienceLevel = user.scienceexam.length
-      ? user.scienceexam[user.scienceexam.length - 1]
-      : null;
-
-    const totalMathsScore = user.mathsexam.reduce(
-      (acc, exam) => acc + exam.score,
-      0
-    );
-    const totalScienceScore = user.scienceexam.reduce(
-      (acc, exam) => acc + exam.score,
-      0
-    );
+    const mathsLevel = user.mathsexam.length ? user.mathsexam[user.mathsexam.length - 1] : null;
+    const scienceLevel = user.scienceexam.length ? user.scienceexam[user.scienceexam.length - 1] : null;
 
     // Customize the response object
     const customizedUser = {
       ...user._doc,
-      mathsLevel: {
-        ...mathsLevel,
-        totalScore: totalMathsScore,
-      },
-      scienceLevel: {
-        ...scienceLevel,
-        totalScore: totalScienceScore,
-      },
+      mathsLevel,
+      scienceLevel,
     };
 
     return res.status(200).json(customizedUser);
@@ -191,10 +178,11 @@ router.get("/get/:id", async (req, res) => {
   }
 });
 
+
 router.put("/addExam/:id", async (req, res) => {
   const userId = req.params.id;
   const optionType = req.body.type;
-  const body = req.body;
+  const body = req.body.data;
 
   try {
     const user = await userSchema.findById(userId);
@@ -210,7 +198,7 @@ router.put("/addExam/:id", async (req, res) => {
     } else if (optionType === "science") {
       user.scienceexam.push({ ...body, id: uniqueId });
       message = "Science Exam Submit Successfully";
-    } else {
+    }else {
       return res.status(400).json({ message: "Invalid option type" });
     }
 
@@ -221,6 +209,36 @@ router.put("/addExam/:id", async (req, res) => {
     return res.status(500).json({ error: "Internal server error" });
   }
 });
+
+router.get("/stats", async (req, res) => {
+  try {
+    // Get the total number of users
+    const userCount = await userSchema.countDocuments();
+
+    // Get the total number of admins
+    const adminCount = await adminSchema.countDocuments();
+
+    // Initialize counters for exams
+    let mathsExamCount = 0;
+    let scienceExamCount = 0;
+
+    // Get all users
+    const users = await userSchema.find();
+
+    // Count the number of exams
+    users.forEach(user => {
+      mathsExamCount += user.mathsexam.length;
+      scienceExamCount += user.scienceexam.length;
+    });
+
+    // Return the counts
+    return res.status(200).json({ userCount, adminCount, mathsExamCount, scienceExamCount });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ error: "Internal server error" });
+  }
+});;
+
 
 function generateId() {
   return (
