@@ -51,7 +51,7 @@
         "answer": "C) 13"
       }
     ],
-    "Medium": [
+    "Intermediate": [
       {
         "question": "What is the value of 12 × 3?",
         "options": ["A) 30", "B) 32", "C) 34", "D) 36"],
@@ -103,7 +103,7 @@
         "answer": "D) 12"
       }
     ],
-    "Pro": [
+    "Advanced": [
       {
         "question": "Solve for x: 3x + 4 = 19",
         "options": ["A) 3", "B) 4", "C) 5", "D) 6"],

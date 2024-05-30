@@ -51,7 +51,7 @@
         "answer": "A) Nectar"
       }
     ],
-    "Medium": [
+    "Intermediate": [
       {
         "question": "What is the main component of the sun?",
         "options": ["A) Oxygen", "B) Nitrogen", "C) Hydrogen", "D) Helium"],
@@ -103,7 +103,7 @@
         "answer": "B) Mitochondria"
       }
     ],
-    "Pro": [
+    "Advanced": [
       {
         "question": "What is the chemical formula for methane?",
         "options": ["A) CH4", "B) CO2", "C) H2O", "D) NH3"],
