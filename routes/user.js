@@ -182,7 +182,7 @@ router.get("/get/:id", async (req, res) => {
 router.put("/addExam/:id", async (req, res) => {
   const userId = req.params.id;
   const optionType = req.body.type;
-  const body = req.body.data;
+  const body = req.body;
 
   try {
     const user = await userSchema.findById(userId);
